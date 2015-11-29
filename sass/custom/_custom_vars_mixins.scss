@@ -13,7 +13,7 @@ $size__site-sidebar: 25%;
 // **-----
 // TYPOGRAPHY
 // **-----
-
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
 
 // DEFAULT _S "TYPOGRAPHY" VARS
 $font__main: sans-serif;
@@ -28,12 +28,13 @@ $font__line-height-pre: 1.6;
 // **-----
 // COLORS
 // **-----
-$christmas-red: #C22026;
-$christmas-green: #3C8D0D;
+$christmas-primary: #C22026;
+$christmas-secondary: #3C8D0D;
 $background-posts: #FFFAFA;
 
+
 // DEFAULT _S "COLORS" VARS
-$color__background-body: $christmas-red;
+$color__background-body: $christmas-primary;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
@@ -43,9 +44,9 @@ $color__background-ins: #fff9c0;
 $color__text-screen: #21759b;
 $color__text-input: #666;
 $color__text-input-focus: #111;
-$color__link: $christmas-green;
-$color__link-visited: black;
-$color__link-hover: $christmas-green;
+$color__link: $christmas-secondary;
+$color__link-visited: $christmas-secondary;
+$color__link-hover: $christmas-secondary;
 $color__text-main: #404040;
 
 $color__border-button: #ccc #ccc #bbb;
