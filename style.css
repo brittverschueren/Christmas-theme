@@ -804,6 +804,11 @@ html {
   font-family: 'Lato', 'serif';
 }
 
+body {
+  background: url("../images/pattern.jpg");
+  background-repeat: repeat;
+}
+
 .children {
   background-color: rgba(194, 32, 38, 0.8);
   padding: 10px;
@@ -815,7 +820,7 @@ html {
 
 #masthead .site-branding h1 a, #masthead .site-branding p a {
   color: #FFFAFA;
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: "Mountains of Christmas", cursive, "serif";
   font-size: 2em;
 }
 
@@ -890,7 +895,7 @@ footer .edit-link {
 }
 
 header h1, header h2 {
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: "Mountains of Christmas", cursive, "serif";
 }
 
 a {
@@ -948,6 +953,7 @@ article {
     width: 100%;
     border-bottom: 1px solid #FFFAFA;
     padding: 10px 0;
+    background-color: #C22026;
   }
   .page_item {
     display: block;
@@ -964,7 +970,7 @@ article {
   }
   .menu-toggle {
     margin: auto;
-    width: 90%;
+    width: 95%;
     padding: 15px;
     font-size: 1em;
   }

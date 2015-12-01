@@ -1,6 +1,15 @@
 // **-----
 // STRUCTURE
 // **-----
+$extra-small-content-width: 95%;
+$small-content-width: 90%;
+$medium-content-width: 85%;
+$large-content-width: 65%;
+
+$extra-small-screen-size: 320px;
+$small-screen-size: 585px;
+$medium-screen-size: 992px;
+$large-screen-size: 1200px; 
 
 
 // DEFAULT _S "STRUCTURE" VARS
@@ -21,6 +30,10 @@ $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
+
+$christmas-font: 'Mountains of Christmas', cursive, 'serif';
+$body-font:	'Lato', 'serif';
+
 // /end
 
 
@@ -56,3 +69,11 @@ $color__border-input: #ccc;
 $color__border-abbr: #666;
 
 // end
+
+// Images
+@mixin backImage($image){
+	background: url($image);
+	background-repeat: repeat;
+	
+	
+}
