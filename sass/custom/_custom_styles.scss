@@ -136,6 +136,11 @@ article{
 	background-color: $background-posts;
 	padding:10px;
 }
+#comments{
+	#respond{
+		background-color: $christmas-primary;
+	}
+}
 
 
  /*==========  Media Queries  ==========*/
@@ -259,4 +264,5 @@ article{
 		width: 100%-2%-$large-content-width;
 		float: left;
 		}
+		
 }
